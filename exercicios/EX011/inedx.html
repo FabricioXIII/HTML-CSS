@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem metamorfica</title>
+</head>
+<body>
+    <h1>imagems dinamicas</h1>
+    <p>pratica com a abaa do navegador diminuindo e almentando para testar</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width:1000px )" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+
+
+    </picture>
+    
+    <h1>play audios</h1>
+
+    <audio src="midias/dan bodan.mp3" controls autoplay loop></audio>
+
+    <audio> <!-- MP3 wev OGG (evitar ao maximo o wev)-->
+
+        <source src="midias/dan bodan.mp3" type="audio/mpg">
+
+        <source src="midias/dan bodan.ogg" type="audio/ogg">
+
+        <source src="midias/dan bodan.wav" type="audio/wav">
+        
+
+
+
+    </audio>
+
+
+
+</body>
+</html>

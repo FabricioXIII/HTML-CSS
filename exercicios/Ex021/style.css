@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+h1{
+
+
+    background-color:aqua ;
+    width: 300px;
+    height: 300px;
+    
+    
+    border: 50px;
+    border-width: 20px;
+    border-color:rgb(5, 5, 87);
+    border-style: solid;
+
+
+    padding-top:  10px ;
+    padding-right: 10px ;
+    padding-bottom: 10px;
+    padding-left: 10px ;
+
+   
+
+    /*da para fazer a shot hand com as especificações da caixa. cima, direita, baixo, esquerda.*/
+}
+
+
+
+
+a{
+    
+    border: 15px blueviolet solid;
+
+
+    padding: 10px 10px 10px 10px;
+
+
+     /*da para fazer a shot hand com as especificações da caixa. cima, direita, baixo, esquerda.*/
+}
