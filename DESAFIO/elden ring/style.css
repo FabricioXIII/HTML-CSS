@@ -9,8 +9,11 @@
     font-style: normal;
 }
 header{
-    background-color: rgba(25, 0, 255, 0.151);
+    background-color: rgba(4, 0, 250, 0.877);
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    margin: auto;
+        
 }
 
 
@@ -23,16 +26,20 @@ header h1{
 nav{
     font-family:"Bodoni Moda SC", serif;
     font-size: 1.1em;
-
+    margin: 15px;
+    
 }
 
 nav > a{
     background-color: aqua;
+    margin: 5px;
 }
 
 main{
-    background-color: rgb(0, 63, 47);
+    background-color: rgba(7, 255, 193, 0.233);
     padding: 25px;
     margin: 25px;
 }
+
+
 
