@@ -8,18 +8,40 @@
     font-weight: normal;
     font-style: normal;
 }
+
+:root {
+    --cor0: #FF9100;
+    --cor1: #3B514E;
+    --cor2: #133332;
+    --cor3: #0E1B12;
+    --cor4: #050A04;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor2);
+       
+
+}
+
 header{
-    background-color: rgba(4, 0, 250, 0.877);
+    background-color: var(--cor3);
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 30px;
-    margin: auto;
-        
+    padding: 30px;
+
 }
 
 
 header h1{
     font-family:'Elden','Times New Roman', Times, serif ;
-    font-size: 5em;
+    font-size: 9em;
+    text-align: center;
+    color: #ee8e10a6;text-align: center;
 
 }
 
@@ -28,18 +50,27 @@ nav{
     font-size: 1.1em;
     margin: 15px;
     
+    
 }
 
 nav > a{
-    background-color: aqua;
     margin: 5px;
+    
 }
 
+
 main{
-    background-color: rgba(7, 255, 193, 0.233);
+    background-color: rgba(143, 238, 214, 0.233);
     padding: 25px;
     margin: 25px;
+    margin-top: 0px;
 }
+
+main article > h1{
+    text-align: center;
+    margin: 15px;
+}
+
 
 
 
