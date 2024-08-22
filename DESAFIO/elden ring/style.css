@@ -24,13 +24,13 @@
 }
 
 body{
-    background-color: var(--cor2);
+   background-image: url(imagem/nokr.jpg);
        
 
 }
 
 header{
-    background-color: var(--cor3);
+    
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
 
@@ -51,25 +51,45 @@ nav{
     margin: 15px;
     
     
-}
-
-nav > a{
-    margin: 5px;
     
 }
 
+nav > a{
+    margin-left: 15px;
+    color: white;
+    
+}
+nav a:hover{
+    font-size: 25px;
+    margin: 25px;
+    color: aliceblue;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
 
 main{
-    background-color: rgba(143, 238, 214, 0.233);
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.384);
     padding: 25px;
-    margin: 25px;
+    margin: 20%;
     margin-top: 0px;
 }
 
-main article > h1{
+main h1{
     text-align: center;
-    margin: 15px;
+    font-size: 40px;
+    color:var(--cor2);
 }
+
+
+img{
+    align-items: center;
+}
+
 
 
 
