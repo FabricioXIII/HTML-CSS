@@ -81,11 +81,11 @@ a{
 }
 
 main{
-    align-items: center;
     background-color: rgba(255, 255, 255, 0.384);
-    padding: 25px;
-    margin: 20%;
-    margin-top: 0px;
+    width: 820px;
+    padding: 10px;
+    margin: auto;
+    
     
 }
 
